@@ -3,7 +3,7 @@ import math
 #Troposphere Layer (0 - 11000m)
 height = (float(input("Enter the height in numbers: ")))
 if height <= 11000:
-    #Tmperature decreases linearly
+    # Temperature decreases linearly
     T = 288.15 - 0.0065 * height
     print(T , "Kelvin")   #Standardized unit
     #Finding pressure using Power Law Relation
@@ -21,5 +21,5 @@ elif height <= 20000:
 
 #Out of the range
 else:
-    print("Height out of range for this model")
+    print("Height is out of range for this model.")
 
